@@ -20,3 +20,15 @@ body{font-family:'Raleway',Helvetica,Arial,sans-serif;font-weight:400;background
 .work li{height:140px;overflow:hidden;}hr{border:0;height:1px;background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));opacity:0.8;}
 footer{padding:80px 0 10px 0;}
 footer a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .my-magellan {
+      display:none;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  .my-magellan {
+      display:none;
+  
+}
+}
