@@ -10,16 +10,6 @@ body{font-family:'Raleway',Helvetica,Arial,sans-serif;font-weight:400;background
 .namelogo h1{font-size:1.5em;font-weight:600;text-align:center;}@media only screen and (min-width: 40.063em) {
 .namelogo h1{font-size:16px;text-align:left;}}@media only screen and (min-width: 64.063em) {
 .namelogo h1{font-size:24px;text-align:left;}}
-.hero{background:url(http://placehold.it/900x800);background-size:cover;box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);height:80%;}
-.intro-text{padding-top:40%;color:rgba(255,255,255,1);text-align:center;}@media only screen and (min-width: 40.063em) {
-.intro-text{padding-top:25%;}}@media only screen and (min-width: 64.063em) {
-.intro-text{padding-top:18%;}}
-.intro-text p{font-family:'Shadows Into Light',cursive;font-size:44px;}
-.about,.work,.contact{padding:50px 0 0 0;}.about img{width:250px;height:250px;border-radius:150px;-webkit-border-radius:150px;-moz-border-radius:150px;}
-.work img:hover{opacity:0.5;-webkit-transition:0.3s ease;-moz-transition:0.3s ease;-ms-transition:0.3s ease;-o-transition:0.3s ease;transition:0.3s ease;}
-.work li{height:140px;overflow:hidden;}hr{border:0;height:1px;background-image:-webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));background-image:-o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));opacity:0.8;}
-footer{padding:80px 0 10px 0;}
-footer a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .my-magellan {
       display:none;
@@ -31,4 +21,25 @@ footer a:hover{color:rgba(0,0,0,0.4);background-color:transparent;}
       display:none;
   
 }
+}
+.nav-bar{background-color:rgba(0,0,0,0.02)}
+
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+    background-color:rgba(0,0,0,0.02);
+    opacity: 100%;
+   <!-- min-width: 100%;-->
+    padding: 10px;
+    z-index: 50;
+}
+
+[data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
+    margin-bottom: 0;
+}
+
+[data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
+    margin-bottom: 0;
+}
+
+[data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
+    line-height: 1.8em;
 }
