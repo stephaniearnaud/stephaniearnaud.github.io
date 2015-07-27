@@ -79,13 +79,13 @@ body {
 
 @media only screen and (min-width: 40.063em) {
 	.intro-text{
-		padding-top: 25%;
+		padding-top: 18%;
 	}
 }
 
 @media only screen and (min-width: 64.063em) {
 	.intro-text{
-		padding-top: 18%;
+		padding-top: 12%;
 	}
 }
 
@@ -106,6 +106,23 @@ body {
 	-moz-border-radius: 150px;	
 }
 
+.work img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    margin-bottom: 10px;
+}
+
+/*@media only screen and (min-width: 64.063em) {
+	.work img{
+        width: 100px;
+        height: 100px;
+	}
+}*/
+
 .work img:hover {
 	opacity: 0.5;
 	-webkit-transition: 0.3s ease;
@@ -116,16 +133,17 @@ body {
 }
 
 .work li {
-	height: 140px;
+	/*height: 140px;*/
 	overflow: hidden; 
 }
 
 .interests img{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;	
+	-moz-border-radius: 150px;
+    margin-bottom: 30px;
 }
 
 hr {
@@ -147,7 +165,7 @@ footer a:hover {
 	background-color: transparent;
 }
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+/*@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .my-magellan {
       display:none;
   }
@@ -158,7 +176,7 @@ footer a:hover {
       display:none;
   
 }
-}
+}*/
 .nav-bar{background-color:rgba(0,0,0,0.02)}
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
