@@ -35,7 +35,7 @@ body {
 }
 
 .namelogo {
-	padding: 20px 10px 0px 10px;
+	padding: 20px 0px 20px 0px;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -170,8 +170,9 @@ footer a:hover {
     height: 2.8125rem;
     line-height: 2.8125rem;
     position: relative;
-    background: #fff;
-    margin-bottom: 0;
+    background: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .top-bar ul {
@@ -216,7 +217,7 @@ footer a:hover {
 }
 
 .top-bar .name {
-    height: 2.8125rem;
+    height: 1.6rem;
     margin: 0;
     font-size: 16px;
 }
@@ -226,8 +227,7 @@ footer a:hover {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     line-height: 2.8125rem;
     font-size: 24px;
-    margin: 0;
-}
+}   
 
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a,
 .top-bar .name p a, .top-bar .name span a {
@@ -235,7 +235,7 @@ footer a:hover {
     color: #222222;
     width: 75%;
     display: block;
-    padding: 0 0.9375rem;
+    padding: 0 0rem;
 }
 
 .top-bar .toggle-topbar {
@@ -245,9 +245,9 @@ footer a:hover {
 }
 
 .top-bar .toggle-topbar a {
-    color: #FFFFFF;
+    color: inherit;
     text-transform: uppercase;
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-weight: bold;
     position: relative;
     display: block;
@@ -258,14 +258,14 @@ footer a:hover {
 
 .top-bar .toggle-topbar.menu-icon {
     top: 50%;
-    margin-top: -16px;
+    margin-top: -9px;
 }
 
 .top-bar .toggle-topbar.menu-icon a {
     height: 34px;
     line-height: 33px;
     padding: 0 2.5rem 0 0.9375rem;
-    color: #FFFFFF;
+    color: inherit;
     position: relative;
 }
 
@@ -277,7 +277,7 @@ footer a:hover {
     top: 50%;
     margin-top: -8px;
     right: 0.9375rem;
-    box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+    box-shadow: 0 0 0 1px #222222, 0 7px 0 1px #222222, 0 14px 0 1px #222222;
     width: 16px;
 }
 
@@ -287,7 +287,7 @@ footer a:hover {
 
 .top-bar.expanded {
     height: auto;
-    background: transparent;
+    background: inherit;
 }
 
 .top-bar.expanded .title-area {
@@ -334,12 +334,13 @@ footer a:hover {
     display: block;
     width: 100%;
     color: inherit;
-    padding: 12px 0 12px 0;
+    padding: 20px 15px 0px 15px;
     padding-left: 0.9375rem;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     text-transform: none;
+    text-align: right;
 }
 
 .top-bar-section ul li > a.button {
@@ -682,7 +683,7 @@ footer a:hover {
     }
 
     .top-bar-section li:not(.has-form) a:not(.button) {
-        padding: 0 0.9375rem;
+        padding: 0px 2px 0px 32px;
         line-height: 2.8125rem;
         background: inherit;
     }
@@ -874,8 +875,7 @@ footer a:hover {
       display:none;
   
 }
-}*/
-.nav-bar{background-color:rgba(0,0,0,0.02)}
+}
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
     background-color:rgba(0,0,0,0.02);
@@ -895,7 +895,7 @@ footer a:hover {
 
 [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
     line-height: 1.8em;
-}
+}*/
 
 @font-face {
   font-family: 'Raleway';
