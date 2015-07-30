@@ -38,8 +38,8 @@ body {
     display: block;
     width: auto;
     overflow: hidden;
-    margin: 0px 0px 0px 0px;
-    padding-bottom: 10px;
+    margin: 0px -10px 0px -10px;
+    padding: 0px 0px 10px 0px;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -225,6 +225,12 @@ footer a:hover {
     min-width: 100%;
     padding: 10px;
     z-index: 50;
+}
+
+@media only screen and (max-width: 40em) {
+  [data-magellan-expedition], [data-magellan-expedition-clone] {
+      padding: 0px;
+  }
 }
 
 [data-magellan-expedition] .sub-nav, [data-magellan-expedition-clone] .sub-nav {
