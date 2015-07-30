@@ -12,26 +12,19 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
 <body>
-
-    <div class="row">
-        <div class="large-12 columns namelogo">
-            <div class="sticky">
-                <nav class="top-bar" data-topbar data-options="sticky_on: large">
-                    <ul class="title-area">
-                        <li class="name">
-                        <h1><a href="#">Stephanie Arnaud</a></h1>
-                        </li>
-                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-                    </ul>
-                    <section class="top-bar-section">
-                        <ul class="right">
-                            <li data-magellan-arrival="about"><a href="#about">ABOUT ME</a></li>
-                            <li data-magellan-arrival="work"><a href="#work">WORK</a></li>
-                            <li data-magellan-arrival="education"><a href="#education">EDUCATION</a></li>
-                            <li data-magellan-arrival="interests"><a href="#interests">INTERESTS</a></li>
-                        </ul>
-                    </section>
-                </nav>
+    
+    <div data-magellan-expedition="fixed">
+        <div class="row">
+            <div class="small-12 medium-4 large-5 columns namelogo">
+                <h1><a href="#">Stephanie Arnaud</a></h1>
+            </div>
+            <div class="small-12 medium-8 large-7 columns sub-nav">
+                <dl>
+                    <dd data-magellan-arrival="about"><a href="#about">ABOUT ME</a></dd>
+                    <dd data-magellan-arrival="work"><a href="#work">WORK</a></dd>
+                    <dd data-magellan-arrival="education"><a href="#education">EDUCATION</a></dd>
+                    <dd data-magellan-arrival="interests"><a href="#interests">INTERESTS</a></dd>
+                </dl>
             </div>
         </div>
     </div>
@@ -44,9 +37,9 @@
         </div>
     </div>
       
-    <a id="about"></a>
     <div class="row about">
         <div class="medium-6 large-9 columns">
+            <a name="about"></a>
             <h3 data-magellan-destination="about">About me</h3>
             <p>6 years work experience professionnal, currently working as a Product Manager at Atlassian</p>
             <p>Skills: product management, project management, requirements analysis, client/development team communication, Agile processes</p>
@@ -59,9 +52,9 @@
       
     <hr>
       
-    <a id="work"></a>
     <div class="row work">
       <div class="large-12 columns">
+      <a name="work"></a>
         <h3 data-magellan-destination="work">Work</h3>
           <div class="row">
             <div class="medium-5 medium-push-7 large-3 large-push-9 columns">
@@ -140,10 +133,10 @@
       
     <hr>
       
-    <a id="education"></a>
     <div class="row work">
         <div class="large-12 columns">
-            <h3 data-magellan-destination="education">Education</h3> 
+            <a name="education"></a>
+            <h3 data-magellan-destination="education">Education</h3>
             <div class="row">
                 <div class="medium-5 medium-push-7 large-3 large-push-9 columns">
                     <a href="http://www.mines-nantes.fr/en//" target="_blank"><img src="img/emn.png" alt=""></a>
@@ -158,9 +151,9 @@
             
     <hr>
             
-    <a id="interests"></a>
     <div class="row interests">
         <div class="large-12 columns">
+            <a name="interests"></a>
             <h3 data-magellan-destination="interests">Interests</h3>
             <div class="row">
                 <div class="medium-5 medium-push-7 large-3 large-push-9 columns">
