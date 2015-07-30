@@ -57,8 +57,8 @@ body {
 .sub-nav li {
     float: left;
     display: inline;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
     font-family: inherit;
     font-weight: normal;
     font-size: 0.8rem;
@@ -70,8 +70,6 @@ body {
     .sub-nav dd,
     .sub-nav li{
         font-size: 1rem;
-        margin-left: 0;
-        margin-bottom: 0;
 	}
 }
 
