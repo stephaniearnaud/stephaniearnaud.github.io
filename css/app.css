@@ -15,7 +15,7 @@ body {
 }
 
 .namelogo h1 {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 600;
 	text-align: center;
     color: inherit;
@@ -56,12 +56,22 @@ body {
 .sub-nav li {
     float: left;
     display: inline;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
     font-family: inherit;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: inherit;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.sub-nav dt,
+    .sub-nav dd,
+    .sub-nav li{
+        font-size: 1rem;
+        margin-left: 0;
+        margin-bottom: 0;
+	}
 }
 
 .sub-nav dt a,
