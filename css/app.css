@@ -136,7 +136,7 @@ body {
 	font-size: 44px;
 }
 
-.about, .work, .interests, .contact {
+.about, .work, .sports, .contact, .languages {
 	padding: 50px 0 0 0;
 }
 
@@ -186,7 +186,7 @@ body {
 	overflow: hidden; 
 }
 
-.interests img{
+.sports img{
 	width: 100px;
 	height: 100px;
 	border-radius: 150px;
@@ -196,10 +196,25 @@ body {
 }
 
 @media only screen and (min-width: 40.063em) {
-	.interests img{
+	.sports img{
         width: 200px;
         height: 200px;
 	}
+}
+
+.languages img{
+	width: 100px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 40.063em) {
+	.languages img{
+        width: 200px;
+	}
+}
+
+.languages p{
+    text-align: center;
 }
 
 hr {
