@@ -1,0 +1,149 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hourtin | Wind overview"/>
+    <meta name="author" content="Stephanie Arnaud"/>
+    <meta name="copyright" content="stephaniearnaud.me Copyright (c) 2017"/>
+    <title>Hourtin | Wind overview</title>
+    <link type="text/css" rel="stylesheet" href="css/app.css" />
+  </head>
+<body>
+
+  <div class="row">
+    <div class="medium-12 columns">
+      <center><h3>Tableau de bord Hourtin</h3></center>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="medium-4 columns">
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout" style="background-color:#88d8b0">
+            <p>Relev&eacute;s</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout">
+            <!--KZS relevés-->
+            <iframe style="width: 1px;min-width: 100%;*width: 100%;height:400px;" src="http://weather.kitezone-school.com/kzsmeteo/" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout">
+            <!--KZS relevés-->
+            <iframe style="width:100%;height:470px;" src="http://www.winds-up.com/api.php?id=25&set_obs=1&set_previs=1&set_webcam=1&set_logo=1&set_txt=1&set_unite=1&output=embed" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="medium-4 columns">
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout" style="background-color:#88d8b0">
+            <p>Temps r&eacute;el</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout">
+            <iframe name="lkr-timelapse-player-iframe" style="width:100%;" frameborder="0" allowfullscreen="true" src="https://api.lookr.com/embed/timelapse/1379682942/day" style="border: none;"></iframe>
+            <script async type="text/javascript" src="https://api.lookr.com/embed/script/timelapse.js"></script>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout" style="height:550px;overflow:hidden;position:relative;">
+            <!--KZS Gauge-->
+            <iframe style="width: 1px;min-width: 100%;*width: 100%;height:780px;position:absolute;top:-270px;margin-left:3px;" src="http://www.kitezone-school.com/kzs/weather/gauge" scrolling="no" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="medium-4 columns">
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout" style="background-color:#88d8b0">
+            <p>Pr&eacute;visions</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout">
+            <!--Windguru-->
+            <script src="http://widget.windguru.cz/js/wg_widget.php" type="text/javascript"></script>
+            <script language="JavaScript" type="text/javascript">
+            //<![CDATA[
+            WgWidget({
+            s: 48559, odh:0, doh:24, wj:'knots', tj:'c', waj:'m', fhours:24, lng:'en',
+            params: ['WINDSPD','GUST','SMER','TMPE','CDC','APCPs','RATING'],
+            first_row:true,
+            spotname:true,
+            first_row_minfo:true,
+            last_row:false,
+            lat_lon:true,
+            tz:true,
+            sun:true,
+            link_archive:false,
+            link_new_window:false
+            },
+            'wg_target_div_48559_78598121'
+            );
+            //]]>
+            </script>
+            <div id="wg_target_div_48559_78598121"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout">
+            <div class="responsive-embed">
+              <!--Windfinder-->
+              <script type="text/javascript" src="https://www.windfinder.com/widget/forecast/js/lachanau?unit_wave=m&unit_rain=mm&unit_temperature=c&unit_wind=kts&columns=2&days=1&show_day=1"></script><noscript><a rel='nofollow' href='https://www.windfinder.com/forecast/lachanau?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-forecast'>Wind forecast for Lachanau</a> provided by <a rel='nofollow' href='https://www.windfinder.com?utm_source=forecast&utm_medium=web&utm_campaign=homepageweather&utm_content=noscript-logo'>windfinder.com</a></noscript>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="callout">
+            <!--Windyty-->
+            <iframe width="100%" height="220" src="https://embed.windytv.com/embed2.html?lat=48.8582&lon=2.3387&type=forecast&metricWind=kt&metricTemp=%C2%B0C" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="medium-12 columns">
+            <div class="callout" style="height:350px;overflow:hidden;position:relative;overflow: scroll;">
+              <!--Meteo france marine Lacanau-->
+              <iframe style="width:100%;height:950px;position:absolute;top:-560px;left:0px;margin-left:3px;" src="http://www.meteofrance.com/previsions-meteo-marine/cotes/lacanau/0653309751" scrolling="no" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!--
+      <div class="row">
+        <div class="medium-12 columns">
+          <h5>KZS donnees texte</h5>
+          <iframe src="http://www.kitezone-school.com/weather/read"></iframe>
+        </div>
+      </div>
+    -->
+
+</body>
+</html>
