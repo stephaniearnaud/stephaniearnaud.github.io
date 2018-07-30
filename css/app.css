@@ -184,7 +184,7 @@ body {
 
 .work li {
 	/*height: 140px;*/
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 .sports img{
@@ -221,10 +221,10 @@ body {
 hr {
   border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     opacity: 0.8;
 }
 
@@ -246,7 +246,7 @@ footer a:hover {
 @media only screen and (max-width: 40em) {
   .my-magellan {
       display:none;
-  
+
   }
 }
 
@@ -328,7 +328,7 @@ footer a:hover {
   height: 1164px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -346,9 +346,9 @@ Modules - reusable parts of our design
   clear: both;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 header {
@@ -771,25 +771,24 @@ header h1 {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 200;
-  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://fonts.gstatic.com/s/raleway/v9/8KhZd3VQBtXTAznvKjw-k8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(https://fonts.gstatic.com/s/raleway/v9/8KhZd3VQBtXTAznvKjw-k8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/UAnF6lSK1JNc1tqTiG8pNALUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
+  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/UAnF6lSK1JNc1tqTiG8pNALUuEpTyoUstqEm5AMlJo4.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12b8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12b8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Shadows Into Light';
   font-style: normal;
   font-weight: 400;
-  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(http://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYPCElmnwKDalSnIV02fhbiI.ttf) format('truetype');
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYPCElmnwKDalSnIV02fhbiI.ttf) format('truetype');
 }
-
